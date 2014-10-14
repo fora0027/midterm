@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding:0;
+	margin:0;
+}	
+    @media all and (min-width: 1080px){
+        .nav{ width: 15%;
+            float: left;
+            
+        }
+        .navbar li{
+            width: 100%;
+            clear: both
+        }
+        .main { width: 45%;
+            float: left;
+            
+        }
+        .two { width: 20%;
+            float: left;
+            
+        }
+        .three { width: 20%;
+            float: left;
+            
+        }
+        
+}
+@media all and (max-width: 1079px) and (min-width: 720px){
+        
+        .nav{
+            width: 100%;
+            
+        }
+        .navbar li{
+            width: 25%;
+            
+        }
+    
+        .main{
+            width: 50%;
+            float: left;
+        }
+    
+        .two{
+            width: 25%;
+            float: left;
+        }
+    
+        .three{
+            width: 25%;
+            float: left;
+        
+        }
+
+}
+@media all and (max-width: 719px) and (min-width: 500px){
+        
+        .nav{
+            width: 100%;
+            
+        }
+    
+        .navbar li{
+            width: 25%;
+            float: left;
+                
+        }
+    
+        .main{
+            width: 100%;
+            
+            
+        }
+    
+        .two{
+            width: 50%;
+            float: left;
+            
+        }
+    
+        .three{
+            width: 50%;
+            float: left;
+        
+        }
+}
+@media all and (max-width: 499px) {
+    .navbar li{
+        width: 50%;
+    }
+    html{
+        font-size: 110%;
+    }
+}
+
+body{
+	font-size: 100%;	
+  /** you can set this as 100% if you want **/
+	background-color: #666;
+    
+    
+}
+h1, h2, h3{
+	font-weight: 700;	
+	padding: 10px 20px;
+	color: #000;
+}
+h2, h3, h4{
+    font-family: Lora, Serif;
+}
+h1{
+	font-size: 3.6rem;	
+	font-family: Yellowtail, cursive;
+    background: #000F7F;
+    color: white;
+    text-shadow: 5px 5px #000;
+}
+h2{
+	font-size: 3.0rem;	
+    background: #7CA7FF;
+	
+}
+h3{
+	font-size: 2.4rem;
+	font-family: serif;
+	color: #494949;	
+}
+p, li, a{
+	font-weight: 400;
+	font-family: Roboto, sans-serif;
+	color: #555;		
+}
+p{
+	padding: 10px 20px;
+	font-size: 1.4rem;
+}
+li{
+	font-size: 1.4rem;
+    
+}
+ol li{
+	padding: 6px 20px;
+	margin-left: 20px;
+	list-style-position:inside;
+}
+a{
+	font-size: 1.4rem;
+}	
+.two{
+    background: #9AB9FF;
+}
+.three{
+    background: #7CA7FF;
+}
+/***********************************
+					Layout
+***********************************/
+.wrapper{
+	background-color: #C9D7FF;	
+}
+.masthead{
+	
+}
+.nav{
+	
+}
+.navbar{
+	
+}
+.main{
+	background: #C9D7FF;
+    
+}
+.sidebar{
+	
+}
+.footer{
+	clear: both;
+    
+}
+/***********************************
+					Masthead
+***********************************/
+.masthead h1{
+	padding: 30px 20px;
+}
+
+/***********************************
+					Navigation
+***********************************/
+
+.navbar li{
+	float:left;	
+	 /* 960/4 = 240  works if the layout is 960*/
+	list-style:none;
+}
+.navbar a{
+	display: block;	
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #26437F;
+    
+}
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus{
+	
+}
+
+/***********************************
+					Content
+***********************************/
+.sidebar p{
+	font-size: 1.4rem;	
+}
+.instructions{
+	color: #C30;	
+}
+/***********************************
+					Footer
+***********************************/
+.footer p{
+	padding: 20px 20px;
+	font-size: 1.2rem;
+	color: white;	
+	background-color: #002A7F;
+}
